@@ -13,10 +13,10 @@ int main() {
     else {
         printf("put new number :");
         scanf("%f", &b);
-        if ( b > a) {
-            printf("dai law ja");
-        }
-        
+            if ( b > a) {
+                printf("b is got : %f", b);
+         } 
+    
     } 
-    retrun 0;
+    return 0;
 }
